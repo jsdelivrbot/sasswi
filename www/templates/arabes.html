@@ -1,0 +1,12 @@
+<ion-view view-title="Arabe">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="arabe in arabes" >
+	  <a class="item item-avatar" href="#/app/arabes/{{arabe.title}}">
+		<img ng-src="img/{{arabe.image}}.jpg" />
+        <h2 class="it">{{arabe.title}}</h2>
+	  </a>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

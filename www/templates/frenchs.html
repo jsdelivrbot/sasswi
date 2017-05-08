@@ -1,0 +1,12 @@
+<ion-view view-title="Français">
+  <ion-content>
+    <ion-list >
+      <ion-item ng-repeat="french in frenchs" >
+		<a class="item item-avatar" href="#/app/frenchs/{{french.title}}">
+		<img ng-src="img/{{french.image}}.jpg" />
+        <h2 class="it">{{french.title}}</h2>
+		</a>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
